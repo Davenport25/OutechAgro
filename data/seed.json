@@ -1,0 +1,1253 @@
+{
+  "sourceWorkbook": "OLUTECH AGRO OPERATIONS PRODUCTIVITY TRACKER (1).xlsx",
+  "generatedAt": "2026-06-30T07:24:33",
+  "purpose": [
+    {
+      "Purpose": "Central control",
+      "How this workbook should be used": "One place to track tasks, projects, delays, risks, approvals, actions and KPIs.",
+      "Primary Owner": "Onaope / Chika",
+      "Daily Input": "All staff update assigned items",
+      "Management Review": "Daily 5-15 + weekly review",
+      "Chairman View": "Management Reporting Dashboard",
+      "Rule": "If it is not written, it did not happen.",
+      "Notes": "Designed for Google Sheets shared-drive use."
+    },
+    {
+      "Purpose": "Accountability",
+      "How this workbook should be used": "Every task must have one owner, due date, status, next action and evidence when applicable.",
+      "Primary Owner": "Chika",
+      "Daily Input": "Master Productivity Tracker",
+      "Management Review": "Accountability Register",
+      "Chairman View": "Named owner + aging",
+      "Rule": "No task should belong to the team.",
+      "Notes": "Chairman / CEO can also be owner of approvals."
+    },
+    {
+      "Purpose": "Export control",
+      "How this workbook should be used": "Use Export-NXP Checklist for NXP, SGS, phytosanitary, fumigation, certificate of origin, invoice, packing list, B/L and buyer documents.",
+      "Primary Owner": "Chika / Onaope",
+      "Daily Input": "Export-NXP Checklist",
+      "Management Review": "Project Tracking Dashboard",
+      "Chairman View": "Project health",
+      "Rule": "Documents run in parallel with sourcing.",
+      "Notes": "Do not wait until goods are ready before starting documents."
+    },
+    {
+      "Purpose": "Delay visibility",
+      "How this workbook should be used": "Record every delay, including executive decisions, unsigned documents, pending funding, supplier issues and transport problems.",
+      "Primary Owner": "Chika",
+      "Daily Input": "Delay & Escalation Tracker",
+      "Management Review": "Weekly Operations Dashboard",
+      "Chairman View": "Open delays by owner",
+      "Rule": "Bad news must move faster than the goods.",
+      "Notes": "A delay is managed only when it has owner/action/date."
+    },
+    {
+      "Purpose": "Executive approvals",
+      "How this workbook should be used": "Track approvals separately so funding, signing, decisions and authorizations do not hide inside conversations.",
+      "Primary Owner": "Onaope / Chairman",
+      "Daily Input": "Executive Approval Tracker",
+      "Management Review": "Approval aging",
+      "Chairman View": "Pending decisions",
+      "Rule": "No person is exempt from accountability tracking.",
+      "Notes": "Approval delay = operational delay."
+    },
+    {
+      "Purpose": "Weekly reporting",
+      "How this workbook should be used": "Use dashboards for the Friday Business Review and Chairman update.",
+      "Primary Owner": "Onaope / Chika",
+      "Daily Input": "Update by Friday close of business",
+      "Management Review": "Friday review",
+      "Chairman View": "3-5 minute view",
+      "Rule": "Meetings end with owner, action and date.",
+      "Notes": "Use Lessons Learned after delays or project completion."
+    },
+    {
+      "Purpose": "Operating Rhythm",
+      "How this workbook should be used": "Monday",
+      "Primary Owner": "Tuesday",
+      "Daily Input": "Wednesday",
+      "Management Review": "Thursday",
+      "Chairman View": "Friday",
+      "Rule": "When Red",
+      "Notes": "Evidence Standard"
+    },
+    {
+      "Purpose": "Cadence",
+      "How this workbook should be used": "Set weekly green flags and priorities",
+      "Primary Owner": "5-15 daily stand-up",
+      "Daily Input": "72-hour pulse check",
+      "Management Review": "Recovery pivot if stalled",
+      "Chairman View": "Friday Business Review + CEO report",
+      "Rule": "Escalate within 24 hours",
+      "Notes": "Who? What? Where? When? How much? Proof? Next action?"
+    },
+    {
+      "Purpose": "Source Alignment",
+      "How this workbook should be used": "Export Execution Playbook",
+      "Primary Owner": "PM/Risk Framework",
+      "Daily Input": "Nigeria Export Manager Playbook",
+      "Management Review": "PRAMYA Contracts",
+      "Chairman View": "Chairman Tracker",
+      "Rule": "Stone Flower Simple Tracker",
+      "Notes": "Workbook Design Decision"
+    },
+    {
+      "Purpose": "Rules embedded",
+      "How this workbook should be used": "Daily updates, red flags, stage gates, docs parallel with sourcing",
+      "Primary Owner": "Hybrid project method, risks/issues, DRI, escalation",
+      "Daily Input": "5-15, 72-hour pulse, evidence, approval levels, AAR",
+      "Management Review": "15MT/2x40FT/21-day/docs/quality terms reflected in export checklist",
+      "Chairman View": "Weekly productivity base retained",
+      "Rule": "Daily update, risk, action and weekly review logic absorbed",
+      "Notes": "Improve tracker into practical control system"
+    }
+  ],
+  "staff": [
+    {
+      "name": "ONAOPE",
+      "role": "Operations Manager",
+      "isExternal": false
+    },
+    {
+      "name": "DIPO",
+      "role": "Sourcing Lead & Agro Commodity Expert",
+      "isExternal": false
+    },
+    {
+      "name": "BOLA",
+      "role": "Research & IT Support",
+      "isExternal": false
+    },
+    {
+      "name": "CHIKA",
+      "role": "Project Manager",
+      "isExternal": false
+    },
+    {
+      "name": "AKIN",
+      "role": "Executive Approver (CEO)",
+      "isExternal": false
+    },
+    {
+      "name": "Buyer",
+      "role": "External Dependency",
+      "isExternal": true
+    },
+    {
+      "name": "Supplier",
+      "role": "External Dependency",
+      "isExternal": true
+    },
+    {
+      "name": "Transporter",
+      "role": "External Dependency",
+      "isExternal": true
+    },
+    {
+      "name": "Bank",
+      "role": "External Dependency",
+      "isExternal": true
+    },
+    {
+      "name": "Regulator / Agency",
+      "role": "External Dependency",
+      "isExternal": true
+    }
+  ],
+  "projects": [],
+  "tasks": [],
+  "actions": [
+    {
+      "id": "A-0001",
+      "sourceDate": "2026-06-20",
+      "projectId": "PRY-2C-001",
+      "projectName": "PRAMYA 2- Container Stone flower Shipment",
+      "item": "Confirm the Situation with Truck from Amana",
+      "owner": "ONAOPE",
+      "assignedBy": "Chairman / CEO",
+      "priority": "Critical",
+      "dueDate": "2026-06-21",
+      "status": "Completed",
+      "evidenceLink": null,
+      "nextFollowUpDate": "2026-06-21",
+      "managerComment": "Truck arrived at warehouse on 2026-06-22. Loading scheduled for 2026-06-23.",
+      "closedDate": "2026-06-22",
+      "source": {
+        "Action ID": null,
+        "Meeting / Source Date": "2026-06-20",
+        "Project ID": "PRY-2C-001",
+        "Project Name": null,
+        "Action Item": "Confirm the Situation with Truck from Amana",
+        "Owner": "Onaope",
+        "Assigned By": "Chairman / CEO",
+        "Priority": "Critical",
+        "Due Date": "2026-06-21",
+        "Status": "Completed",
+        "Days Outstanding": null,
+        "Overdue?": null,
+        "Evidence Link": null,
+        "Next Follow-up Date": "2026-06-21",
+        "Manager Comment": "Truck arrived at warehouse on 2026-06-22. Loading scheduled for 2026-06-23.",
+        "Closed Date": "2026-06-22"
+      }
+    },
+    {
+      "id": "A-0002",
+      "sourceDate": "2026-06-22",
+      "projectId": "PRY-2C-001",
+      "projectName": "PRAMYA 2- Container Stone flower Shipment",
+      "item": "Arrange labourers and begin loading truck tomorrow",
+      "owner": "AMANA",
+      "assignedBy": "ONAOPE",
+      "priority": "Critical",
+      "dueDate": "2026-06-23",
+      "status": "Completed",
+      "evidenceLink": null,
+      "nextFollowUpDate": "2026-06-24",
+      "managerComment": "Truck has arrived. Labourers needed before loading can start.",
+      "closedDate": "2026-06-24",
+      "source": {
+        "Action ID": null,
+        "Meeting / Source Date": "2026-06-22",
+        "Project ID": "PRY-2C-001",
+        "Project Name": null,
+        "Action Item": "Arrange labourers and begin loading truck tomorrow",
+        "Owner": "AMANA",
+        "Assigned By": "ONAOPE",
+        "Priority": "Critical",
+        "Due Date": "2026-06-23",
+        "Status": "Completed",
+        "Days Outstanding": null,
+        "Overdue?": null,
+        "Evidence Link": null,
+        "Next Follow-up Date": "2026-06-24",
+        "Manager Comment": "Truck has arrived. Labourers needed before loading can start.",
+        "Closed Date": "2026-06-24"
+      }
+    },
+    {
+      "id": "A-0003",
+      "sourceDate": "2026-06-22",
+      "projectId": "PRY-2C-001",
+      "projectName": "PRAMYA 2- Container Stone flower Shipment",
+      "item": "Confirm escort arrangement for truck movement from Taraba to Lagos",
+      "owner": "AMANA",
+      "assignedBy": "ONAOPE",
+      "priority": "Critical",
+      "dueDate": "2026-06-23",
+      "status": "In Progress",
+      "evidenceLink": null,
+      "nextFollowUpDate": "2026-06-26",
+      "managerComment": "Escort required because GIT cannot proceed due to invalid truck insurance certificate.",
+      "closedDate": null,
+      "source": {
+        "Action ID": null,
+        "Meeting / Source Date": "2026-06-22",
+        "Project ID": "PRY-2C-001",
+        "Project Name": null,
+        "Action Item": "Confirm escort arrangement for truck movement from Taraba to Lagos",
+        "Owner": "AMANA",
+        "Assigned By": "ONAOPE",
+        "Priority": "Critical",
+        "Due Date": "2026-06-23",
+        "Status": "In Progress",
+        "Days Outstanding": null,
+        "Overdue?": null,
+        "Evidence Link": null,
+        "Next Follow-up Date": "2026-06-26",
+        "Manager Comment": "Escort required because GIT cannot proceed due to invalid truck insurance certificate.",
+        "Closed Date": null
+      }
+    },
+    {
+      "id": "A-0004",
+      "sourceDate": "2026-06-23",
+      "projectId": "PRY-2C-001",
+      "projectName": "PRAMYA 2- Container Stone flower Shipment",
+      "item": "Confirm sticks are bought and available before loading starts",
+      "owner": "DIPO",
+      "assignedBy": "DIPO",
+      "priority": "High",
+      "dueDate": "2026-06-23",
+      "status": "Completed",
+      "evidenceLink": null,
+      "nextFollowUpDate": "2026-06-24",
+      "managerComment": "Sticks are available. Issue resolved and logged as lesson learned.",
+      "closedDate": "2026-06-24",
+      "source": {
+        "Action ID": null,
+        "Meeting / Source Date": "2026-06-23",
+        "Project ID": "PRY-2C-001",
+        "Project Name": null,
+        "Action Item": "Confirm sticks are bought and available before loading starts",
+        "Owner": "DIPO",
+        "Assigned By": "DIPO",
+        "Priority": "High",
+        "Due Date": "2026-06-23",
+        "Status": "Completed",
+        "Days Outstanding": null,
+        "Overdue?": null,
+        "Evidence Link": null,
+        "Next Follow-up Date": "2026-06-24",
+        "Manager Comment": "Sticks are available. Issue resolved and logged as lesson learned.",
+        "Closed Date": "2026-06-24"
+      }
+    },
+    {
+      "id": "A-0005",
+      "sourceDate": "2026-06-26",
+      "projectId": "PRY-2C-001",
+      "projectName": "PRAMYA 2- Container Stone flower Shipment",
+      "item": "Create complete pre-shipment readiness checklist covering all items that must be done before cargo can ship on time",
+      "owner": "CHIKA",
+      "assignedBy": "ONAOPE",
+      "priority": "High",
+      "dueDate": "2026-06-30",
+      "status": "In Progress",
+      "evidenceLink": null,
+      "nextFollowUpDate": "2026-06-29",
+      "managerComment": "Onaope to work with Dipo and Chika to list all requirements that must be completed beforehand to avoid shipment delays.",
+      "closedDate": null,
+      "source": {
+        "Action ID": null,
+        "Meeting / Source Date": "2026-06-26",
+        "Project ID": "PRY-2C-001",
+        "Project Name": null,
+        "Action Item": "Create complete pre-shipment readiness checklist covering all items that must be done before cargo can ship on time",
+        "Owner": "CHIKA",
+        "Assigned By": "ONAOPE",
+        "Priority": "High",
+        "Due Date": "2026-06-30",
+        "Status": "In Progress",
+        "Days Outstanding": null,
+        "Overdue?": null,
+        "Evidence Link": null,
+        "Next Follow-up Date": "2026-06-29",
+        "Manager Comment": "Onaope to work with Dipo and Chika to list all requirements that must be completed beforehand to avoid shipment delays.",
+        "Closed Date": null
+      }
+    }
+  ],
+  "delays": [],
+  "approvals": [],
+  "risks": [],
+  "nxpChecklist": [],
+  "lessons": [
+    {
+      "id": "LL-0001",
+      "date": "2026-06-23",
+      "projectId": "PRY-2C-001",
+      "projectName": "PRAMYA 2- Container Stone flower Shipment",
+      "event": "Sticks required for loading were not bought early enough",
+      "expected": null,
+      "actual": "CEO flagged that sticks should have been purchased before now instead of waiting until loading stage.",
+      "missedSignal": null,
+      "rootCause": "Loading materials were not included in early readiness checklist / procurement was handled step-by-step instead of planned ahead.",
+      "impact": "Potential loading delay and avoidable last-minute pressure.",
+      "control": "Add loading materials checklist to pre-loading readiness plan. Required items such as sticks must be confirmed before truck arrival/loading day.",
+      "owner": "ONAOPE",
+      "dueDate": "2026-07-06",
+      "status": "Open",
+      "evidenceReference": null,
+      "source": {
+        "Lesson ID": null,
+        "Date": "2026-06-23",
+        "Project ID": "PRY-2C-001",
+        "Project Name": null,
+        "Event / Issue": "Sticks required for loading were not bought early enough",
+        "What Was Supposed to Happen": null,
+        "What Actually Happened": "CEO flagged that sticks should have been purchased before now instead of waiting until loading stage.",
+        "First Missed Signal": null,
+        "Root Cause": "Loading materials were not included in early readiness checklist / procurement was handled step-by-step instead of planned ahead.",
+        "Impact": "Potential loading delay and avoidable last-minute pressure.",
+        "Permanent Control / Prevention Rule": "Add loading materials checklist to pre-loading readiness plan. Required items such as sticks must be confirmed before truck arrival/loading day.",
+        "Owner": "ONAOPE",
+        "Due Date": "2026-07-06",
+        "Status": "Open",
+        "Evidence / Reference": null
+      }
+    },
+    {
+      "id": "LL-0002",
+      "date": "2026-06-24",
+      "projectId": "PRY-4C-001",
+      "projectName": "PRAMYA 4-Container Stone Flower Shipment",
+      "event": "Shrinkage occurred due to prolonged storage",
+      "expected": null,
+      "actual": "Stored goods lost weight due to moisture loss, but augmentation was done to maintain final weight.",
+      "missedSignal": null,
+      "rootCause": "Storage duration was longer than expected.",
+      "impact": "Additional quantity had to be added to protect final shipment weight.",
+      "control": "For PRY-4C-001, reduce storage time, track weight regularly, and plan augmentation early if needed.",
+      "owner": "DIPO",
+      "dueDate": null,
+      "status": "Open",
+      "evidenceReference": null,
+      "source": {
+        "Lesson ID": null,
+        "Date": "2026-06-24",
+        "Project ID": "PRY-4C-001",
+        "Project Name": null,
+        "Event / Issue": "Shrinkage occurred due to prolonged storage",
+        "What Was Supposed to Happen": null,
+        "What Actually Happened": "Stored goods lost weight due to moisture loss, but augmentation was done to maintain final weight.",
+        "First Missed Signal": null,
+        "Root Cause": "Storage duration was longer than expected.",
+        "Impact": "Additional quantity had to be added to protect final shipment weight.",
+        "Permanent Control / Prevention Rule": "For PRY-4C-001, reduce storage time, track weight regularly, and plan augmentation early if needed.",
+        "Owner": "DIPO",
+        "Due Date": null,
+        "Status": "Open",
+        "Evidence / Reference": null
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "EXT-0001",
+      "title": "Secure truck arrival in Gembu for loading and movement to Lagos",
+      "projectId": "PRY-2C-001",
+      "module": "Task Evidence",
+      "uploadedBy": "AMANA",
+      "uploadedAt": null,
+      "requiredClearance": 2,
+      "type": "external-link",
+      "externalUrl": "https://drive.google.com/drive/folders/14Uo7-dIXYjnhNR4yAImB8uXnbNxtlFfK?usp=drive_link",
+      "originalName": "Evidence Link",
+      "size": null,
+      "notes": "Imported from the spreadsheet evidence-link field."
+    },
+    {
+      "id": "EXT-0002",
+      "title": "Prepare and update NXP checklist showing available and missing documents for the India 2-container shipment",
+      "projectId": "PRY-2C-001",
+      "module": "Task Evidence",
+      "uploadedBy": "CHIKA",
+      "uploadedAt": null,
+      "requiredClearance": 2,
+      "type": "external-link",
+      "externalUrl": "https://docs.google.com/document/d/1bpZhhIe2kwJIuL50nZwuIJKQVX3RXmv2WLi-Fmfo0PQ/edit?tab=t.0",
+      "originalName": "Evidence Link",
+      "size": null,
+      "notes": "Imported from the spreadsheet evidence-link field."
+    },
+    {
+      "id": "EXT-0003",
+      "title": "Arrange labourers and load commodities into truck at warehouse",
+      "projectId": "PRY-2C-001",
+      "module": "Task Evidence",
+      "uploadedBy": "AMANA",
+      "uploadedAt": null,
+      "requiredClearance": 2,
+      "type": "external-link",
+      "externalUrl": "https://drive.google.com/file/d/1ezb0POXScTGftF5UIIgoH5oCu9Pw_eOn/view?usp=drive_link",
+      "originalName": "Evidence Link",
+      "size": null,
+      "notes": "Imported from the spreadsheet evidence-link field."
+    },
+    {
+      "id": "EXT-0004",
+      "title": "Sticks required for loading/support should have been bought earlier. CEO flagged this as a preventable planning delay th",
+      "projectId": "PRY-2C-001",
+      "module": "Delay Evidence",
+      "uploadedBy": "DIPO",
+      "uploadedAt": null,
+      "requiredClearance": 2,
+      "type": "external-link",
+      "externalUrl": "https://drive.google.com/file/d/1U1v0V_U552DnR8L_TDY_xdlMbtOLQnmt/view?usp=drive_link",
+      "originalName": "Evidence Link",
+      "size": null,
+      "notes": "Imported from the spreadsheet evidence-link field."
+    }
+  ],
+  "auditLog": [],
+  "projectCategories": [
+    "Export Project",
+    "Sourcing Project",
+    "NXP / Documentation",
+    "Research Assignment",
+    "Compliance Activity",
+    "IT Project",
+    "Operational Improvement",
+    "Admin / Management Assignment",
+    "Contract / Buyer Management",
+    "Logistics / Port",
+    "Export Pipeline",
+    "Other"
+  ],
+  "setup": {
+    "projectCategories": [
+      "Export Project",
+      "Sourcing Project",
+      "NXP / Documentation",
+      "Research Assignment",
+      "Compliance Activity",
+      "IT Project",
+      "Operational Improvement",
+      "Admin / Management Assignment",
+      "Contract / Buyer Management",
+      "Logistics / Port",
+      "Export Pipeline",
+      "Other"
+    ],
+    "delayCategories": [
+      "Internal Staff Delay",
+      "Executive Approval Delay",
+      "Supplier Delay",
+      "Buyer Delay",
+      "Transport / Truck Delay",
+      "Documentation / NXP Delay",
+      "Regulatory / Agency Delay",
+      "Funding / Cash Delay",
+      "Quality Issue",
+      "Port / Freight Delay",
+      "External Market Issue",
+      "Procurement / Materials Delay",
+      "No Update Provided",
+      "Review"
+    ],
+    "approvalTypes": [
+      "Supplier Payment",
+      "Truck / Logistics Payment",
+      "NXP / Bank Instruction",
+      "Contract Signing",
+      "Buyer Update / Shipment Commitment",
+      "Emergency Field Spend",
+      "Contract Approval",
+      "Funding Approval",
+      "Document Signing",
+      "Other Executive Decision"
+    ],
+    "riskTypes": [
+      "Risk",
+      "Issue",
+      "Assumption",
+      "Constraint"
+    ],
+    "riskCategories": [
+      "Supply",
+      "Quality",
+      "Cost / Cash",
+      "Logistics",
+      "Documentation",
+      "Regulatory",
+      "Buyer / Stakeholder",
+      "Executive Approval",
+      "Port / Freight",
+      "Approval / Decision",
+      "Cash Exposure",
+      "No Update / Evidence Gap"
+    ],
+    "impactAreas": [
+      "Timeline",
+      "Buyer Trust",
+      "Cash Exposure",
+      "Quality",
+      "Compliance",
+      "Cost",
+      "Funding",
+      "Documentation",
+      "Regulatory",
+      "Port / Freight",
+      "Supplier",
+      "Transport"
+    ],
+    "projectPhases": [
+      "Initiation",
+      "Planning",
+      "Execution",
+      "Monitoring & Control",
+      "Closing",
+      "Ready Shelf / Pre-Contract",
+      "Sourcing",
+      "Quality Check",
+      "Procurement / Aggregation",
+      "Logistics / Movement",
+      "Port / Shipment",
+      "Testing Phase",
+      "Buyer Docs / Payment",
+      "Deployment"
+    ],
+    "projectHealthValues": [
+      "Green",
+      "Amber",
+      "Red"
+    ],
+    "projectHealthStyles": {
+      "Green": {
+        "background": "#DCFCE7",
+        "color": "#166534",
+        "border": "#86EFAC"
+      },
+      "Amber": {
+        "background": "#FEF3C7",
+        "color": "#F59E0B",
+        "border": "#FDE68A"
+      },
+      "Red": {
+        "background": "#FEE2E2",
+        "color": "#DC2626",
+        "border": "#FCA5A5"
+      }
+    },
+    "staff": [
+      {
+        "name": "ONAOPE",
+        "role": "Operations Manager",
+        "isExternal": false
+      },
+      {
+        "name": "DIPO",
+        "role": "Sourcing Lead & Agro Commodity Expert",
+        "isExternal": false
+      },
+      {
+        "name": "BOLA",
+        "role": "Research & IT Support",
+        "isExternal": false
+      },
+      {
+        "name": "CHIKA",
+        "role": "Project Manager",
+        "isExternal": false
+      },
+      {
+        "name": "AKIN",
+        "role": "Executive Approver (CEO)",
+        "isExternal": false
+      },
+      {
+        "name": "BUYER",
+        "role": "External Dependency",
+        "isExternal": true
+      },
+      {
+        "name": "SUPPLIER",
+        "role": "External Dependency",
+        "isExternal": true
+      },
+      {
+        "name": "TRANSPORTER",
+        "role": "External Dependency",
+        "isExternal": true
+      },
+      {
+        "name": "BANK",
+        "role": "External Dependency",
+        "isExternal": true
+      },
+      {
+        "name": "REGULATOR / AGENCY",
+        "role": "External Dependency",
+        "isExternal": true
+      }
+    ],
+    "workSettings": {
+      "timeZone": "Africa/Lagos",
+      "workdayStart": "09:00",
+      "workdayEnd": "17:00",
+      "expectedHours": 8
+    },
+    "taskStatuses": [
+      "Not Started",
+      "In Progress",
+      "Blocked",
+      "Delayed",
+      "Completed",
+      "Cancelled",
+      "Pending"
+    ],
+    "priorities": [
+      "Critical",
+      "High",
+      "Medium",
+      "Low"
+    ],
+    "yesNoValues": [
+      "Yes",
+      "No"
+    ],
+    "approvalStatuses": [
+      "Pending",
+      "Approved",
+      "Rejected",
+      "More Info Needed"
+    ],
+    "riskStatuses": [
+      "Open",
+      "Monitoring",
+      "Closed",
+      "Converted to Issue"
+    ],
+    "escalationLevels": [
+      "Level 1 - DRI Correction",
+      "Level 2 - Team Intervention",
+      "Level 3 - Executive Decision",
+      "Level 4 - Stop / Reassign"
+    ],
+    "evidenceTypes": [
+      "Google Drive Link",
+      "WhatsApp Screenshot",
+      "Photo / Video",
+      "Document",
+      "Email / Message",
+      "Receipt / Invoice",
+      "Call Note",
+      "Physical Inspection",
+      "System Screenshot",
+      "None Yet"
+    ],
+    "qualityRatings": [
+      "1.0",
+      "2.0",
+      "3.0",
+      "4.0",
+      "5.0"
+    ],
+    "projectStatuses": [
+      "Active",
+      "On Hold",
+      "Completed",
+      "Cancelled"
+    ],
+    "integrationFields": {
+      "projects": [
+        "Project ID",
+        "Project Name",
+        "Project Category",
+        "Project Owner",
+        "Sponsor / Approver",
+        "Current Phase",
+        "Priority",
+        "Status",
+        "Start Date",
+        "Target End Date",
+        "Current Blocker",
+        "Next Milestone",
+        "Decision Required",
+        "Impact if Delayed",
+        "Last Update",
+        "Project Folder / Link"
+      ],
+      "tasks": [
+        "Task ID",
+        "Project ID",
+        "Task / Deliverable",
+        "Assigned To",
+        "Assigned By",
+        "Priority",
+        "Status",
+        "Due Date",
+        "Progress %",
+        "Blocker?",
+        "Delay Category",
+        "Approval Required?",
+        "Evidence Link",
+        "Next Action",
+        "Evidence Type"
+      ],
+      "delays": [
+        "Delay ID",
+        "Project ID",
+        "Related Task ID",
+        "Delay Category",
+        "Delay / Blocker Description",
+        "Responsible Party",
+        "Required Decision / Action",
+        "Impact Area",
+        "Estimated Days Impact",
+        "Resolution / Recovery Plan"
+      ],
+      "risks": [
+        "Risk ID",
+        "Project ID",
+        "Risk / Issue",
+        "Type",
+        "Category",
+        "Owner / DRI",
+        "Likelihood (1-5)",
+        "Impact (1-5)",
+        "Mitigation / Preventive Action",
+        "Status"
+      ],
+      "approvals": [
+        "Approval ID",
+        "Project ID",
+        "Approval Type",
+        "Requested By",
+        "Approver",
+        "Approval Item / Decision Needed",
+        "Required By",
+        "Status",
+        "Impact Area"
+      ],
+      "nxpTasks": [
+        "Checklist ID",
+        "Project ID",
+        "Workstream",
+        "Required Item",
+        "Owner",
+        "Required By Stage",
+        "Status",
+        "Due Date",
+        "Blocker",
+        "Approver / External Party"
+      ]
+    }
+  },
+  "workSettings": {
+    "timeZone": "Africa/Lagos",
+    "workdayStart": "09:00",
+    "workdayEnd": "18:00",
+    "expectedHours": 9
+  },
+  "attendance": [],
+  "projectHandoffs": [],
+  "weeklyOperationsDashboard": {
+    "sourceSheet": "Weekly Operations Dashboard",
+    "selectedWeekStart": "2026-08-03",
+    "kpis": [
+      {
+        "label": "Tasks Logged",
+        "value": 6,
+        "target": "All weekly work captured",
+        "notes": "Weekly productivity view"
+      },
+      {
+        "label": "Completed",
+        "value": 2,
+        "target": ">80%",
+        "notes": "Weekly productivity view"
+      },
+      {
+        "label": "Completion Rate",
+        "value": 0.3333333333,
+        "target": ">80%",
+        "notes": "Weekly productivity view"
+      },
+      {
+        "label": "Overdue Tasks",
+        "value": 0,
+        "target": "0",
+        "notes": "Weekly productivity view"
+      },
+      {
+        "label": "Blocked / Delayed",
+        "value": 0,
+        "target": "Escalate same day",
+        "notes": "Risk and approval view"
+      },
+      {
+        "label": "Open Approvals",
+        "value": 0,
+        "target": "Aged approvals visible",
+        "notes": "Risk and approval view"
+      },
+      {
+        "label": "Open Delays",
+        "value": 0,
+        "target": "No hidden delays",
+        "notes": "Risk and approval view"
+      },
+      {
+        "label": "Red Risks",
+        "value": 2,
+        "target": "Act now",
+        "notes": "Risk and approval view"
+      }
+    ],
+    "staffRows": [
+      {
+        "employee": "ONAOPE",
+        "role": "Operations Manager",
+        "tasks": 2,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 51.5,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "DIPO",
+        "role": "Sourcing Lead & Agro Commodity Expert",
+        "tasks": 1,
+        "completed": 1,
+        "completionPct": 1,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 71,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 2,
+        "managementNote": "Follow up required"
+      },
+      {
+        "employee": "BOLA",
+        "role": "Research & IT Support",
+        "tasks": 0,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "CHIKA",
+        "role": "Project Manager",
+        "tasks": 1,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 50,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "WAHEED",
+        "role": "Export Specialist",
+        "tasks": 0,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 1,
+        "managementNote": "Follow up required"
+      },
+      {
+        "employee": "AKIN",
+        "role": "Executive Approver (CEO)",
+        "tasks": 0,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "AMANA",
+        "role": "Sourcing & Procurement Agent",
+        "tasks": 1,
+        "completed": 1,
+        "completionPct": 1,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 1,
+        "avgScore": 96,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "Buyer",
+        "role": "External Dependency",
+        "tasks": 0,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "Supplier",
+        "role": "External Dependency",
+        "tasks": 0,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "Transporter",
+        "role": "External Dependency",
+        "tasks": 0,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "Bank",
+        "role": "External Dependency",
+        "tasks": 0,
+        "completed": 0,
+        "completionPct": 0,
+        "overdue": 0,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "managementNote": ""
+      },
+      {
+        "employee": "Project ID",
+        "role": "Project Name",
+        "tasks": "Owner",
+        "completed": "Priority",
+        "completionPct": "Status",
+        "overdue": "Progress %",
+        "blockedDelayed": "Overdue Tasks",
+        "evidenceRate": "Blocked/Delayed",
+        "avgScore": "Open Approvals",
+        "approvalsPending": "Open Risks",
+        "openDelays": "Health",
+        "openRisks": "Current Blocker",
+        "managementNote": "Next Milestone"
+      },
+      {
+        "employee": "PRY-2C-001",
+        "role": "PRAMYA 2- Container Stone flower Shipment",
+        "tasks": "Dipo",
+        "completed": "Critical",
+        "completionPct": "Active",
+        "overdue": 0.684375,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": "Green",
+        "openRisks": "Buyer payment processing has started, but containers have not yet been loaded on vessel. BL is still pending. Vessel ETA is now 8th August. Freight forwarder has urged patience while vessel/loading process is awaited.",
+        "managementNote": "Confirm vessel arrival/loading, obtain BL once available, continue buyer payment processing, and monitor shipment completion."
+      },
+      {
+        "employee": "PRY-4C-001",
+        "role": "PRAMYA 4-Container Stone Flower Shipment",
+        "tasks": "DIPO",
+        "completed": "Critical",
+        "completionPct": "Active",
+        "overdue": 0.5833333333,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 3,
+        "openDelays": "Amber",
+        "openRisks": "Batch A movement is scheduled for 5th August. Truck has been secured and GIT process has started, but current delay is pending Akin’s signature on the KYC document before payment can be made. Target is to complete KYC signature and payment by 4th August.",
+        "managementNote": "Akin signs KYC document, payment is made, GIT is completed, and Batch A movement to Lagos begins on 5th August."
+      },
+      {
+        "employee": "OPS-PMS-001",
+        "role": "Olutech Operation Management System",
+        "tasks": "BOLA",
+        "completed": "High",
+        "completionPct": "Active",
+        "overdue": 0.7,
+        "blockedDelayed": 0,
+        "evidenceRate": 0,
+        "avgScore": 0,
+        "approvalsPending": 0,
+        "openDelays": "Green",
+        "openRisks": "PMS demo review is ongoing with Idris. Feedback and next development actions are pending.",
+        "managementNote": "Complete review with Idris, document feedback, and assign revisions to Bolade if required."
+      }
+    ]
+  },
+  "accountabilityRegister": {
+    "sourceSheet": "Accountability Register",
+    "rows": [
+      {
+        "owner": "ONAOPE",
+        "role": "Operations Manager",
+        "totalOpenTasks": 4,
+        "completedTasks": 3,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0,
+        "averageProductivityScore": 56.78571429,
+        "accountabilityFlag": "On Track"
+      },
+      {
+        "owner": "DIPO",
+        "role": "Sourcing Lead & Agro Commodity Expert",
+        "totalOpenTasks": 1,
+        "completedTasks": 3,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 2,
+        "evidenceRate": 0,
+        "averageProductivityScore": 63,
+        "accountabilityFlag": "On Track"
+      },
+      {
+        "owner": "BOLA",
+        "role": "Research & IT Support",
+        "totalOpenTasks": 2,
+        "completedTasks": 1,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0.3333333333,
+        "averageProductivityScore": 59.66666667,
+        "accountabilityFlag": "On Track"
+      },
+      {
+        "owner": "CHIKA",
+        "role": "Project Manager",
+        "totalOpenTasks": 2,
+        "completedTasks": 1,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0,
+        "averageProductivityScore": 55,
+        "accountabilityFlag": "On Track"
+      },
+      {
+        "owner": "WAHEED",
+        "role": "Export Specialist",
+        "totalOpenTasks": 0,
+        "completedTasks": 1,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 1,
+        "evidenceRate": 0,
+        "averageProductivityScore": 65,
+        "accountabilityFlag": "No Open Tasks"
+      },
+      {
+        "owner": "AKIN",
+        "role": "Executive Approver (CEO)",
+        "totalOpenTasks": 0,
+        "completedTasks": 0,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0,
+        "averageProductivityScore": 0,
+        "accountabilityFlag": "No Open Tasks"
+      },
+      {
+        "owner": "AMANA",
+        "role": "Sourcing & Procurement Agent",
+        "totalOpenTasks": 1,
+        "completedTasks": 5,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0.5,
+        "averageProductivityScore": 77.33333333,
+        "accountabilityFlag": "On Track"
+      },
+      {
+        "owner": "Buyer",
+        "role": "External Dependency",
+        "totalOpenTasks": 0,
+        "completedTasks": 0,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0,
+        "averageProductivityScore": 0,
+        "accountabilityFlag": "No Open Tasks"
+      },
+      {
+        "owner": "Supplier",
+        "role": "External Dependency",
+        "totalOpenTasks": 0,
+        "completedTasks": 0,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0,
+        "averageProductivityScore": 0,
+        "accountabilityFlag": "No Open Tasks"
+      },
+      {
+        "owner": "Transporter",
+        "role": "External Dependency",
+        "totalOpenTasks": 0,
+        "completedTasks": 0,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0,
+        "averageProductivityScore": 0,
+        "accountabilityFlag": "No Open Tasks"
+      },
+      {
+        "owner": "Bank",
+        "role": "External Dependency",
+        "totalOpenTasks": 0,
+        "completedTasks": 0,
+        "overdueTasks": 0,
+        "blockedDelayed": 0,
+        "openApprovals": 0,
+        "openDelays": 0,
+        "openRisks": 0,
+        "evidenceRate": 0,
+        "averageProductivityScore": 0,
+        "accountabilityFlag": "No Open Tasks"
+      }
+    ]
+  },
+  "importHistory": [],
+  "meta": {
+    "sourceWorkbook": "OLUTECH AGRO OPERATIONS PRODUCTIVITY TRACKER (4).xlsx",
+    "excelIntegrationUpdatedAt": "2026-08-11"
+  },
+  "authSessions": []
+}
